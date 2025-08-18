@@ -1,3 +1,22 @@
 * {
     background-color: black;
+    color: #fff;
+}
+
+.welcome {
+    height: 20vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: .25rem .25rem 0 0;
+}
+.wlcm {
+    position: absolute;
+    font-size: 2rem;
 }
