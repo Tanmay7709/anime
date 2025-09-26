@@ -10,7 +10,7 @@ to push the file in the repository
 then it will ask for username and password key after that
 
 Tanmay7709
-the password is inside some other file because i cant keep that here
+here is nothing since github hates me and doesnt let me do anything
 
 
 
