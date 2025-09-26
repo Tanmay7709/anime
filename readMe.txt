@@ -10,7 +10,7 @@ to push the file in the repository
 then it will ask for username and password key after that
 
 Tanmay7709
-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
+the password is inside some other file because i cant keep that here
 
 
 
