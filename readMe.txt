@@ -9,6 +9,8 @@ to commit changes and add msg afterwards about changes in the double inverted co
 to push the file in the repository
 then it will ask for username and password key after that
 
+Tanmay7709
+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
 
 
 cd ~/Documents/github/anime/
