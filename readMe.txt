@@ -10,7 +10,7 @@ to push the file in the repository
 then it will ask for username and password key after that
 
 Tanmay7709
-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
+that password thing is removed from here to outer file
 
 
 cd ~/Documents/github/anime/
