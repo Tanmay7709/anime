@@ -2,16 +2,29 @@
     border: 1px solid;
     margin: 0;
     padding: 0;
+    color: antiquewhite;
+    background-color: #111212;
 }
+ /* em is used for font size    */
 
 .welcome {
-    height: 80vh;
+    height: 20vh;
     width: 50%;
+    display: flex;
+    justify-content: center;
 }
-.wlcm {
-    font-size: 2em;   /* em is used for font size    */
+.welcome h1{
+    font-size: 2em;  
+    position: absolute;
+    display: block;
 }
-.wlcm h1 {
-}
+
 .main {
+    display: flex;
+    position: static;
+    align-items: flex-start;
+}
+.main div {
+    display: inline-block;
+    align-items: flex-start;
 }
