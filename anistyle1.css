@@ -145,3 +145,31 @@ div {
     width: 95%;
     background-color: rgba(31, 30, 30, 0.274);
 }
+.bot h3 {
+    background: none;
+    padding: 0.5rem;
+}
+
+.response {
+    margin-top: 1rem;
+    height: 30vh;
+    width: 80%;
+    border: 1px solid blue;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.photo {
+    height: 90%;
+    width: 45%;
+    background-color: rgb(245, 245, 65);
+}
+.message {
+    height: 90%;
+    width: 45%;
+    background-color: rgb(169, 240, 63);
+}
