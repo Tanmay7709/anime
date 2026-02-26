@@ -6,6 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="anistyle1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- <button id="myButton">Go to Example</button> -->
+      
 </head>
 <body>
     <div class="welcome">
@@ -25,7 +28,12 @@
         <div class="mid">
             <div class="mid-three1">
                 <div class="divide-1">this button will do something <br>
-                    <button>press me!!</button>
+                    <button id="myButton">press me!!</button>
+                    <script>
+                        document.getElementById("myButton").addEventListener("click", function() {
+                            window.location.href = "https://ddlc.moe/";
+                        });
+                    </script> 
                 </div>
                 <div class="divide-2">
                     <a href="https://translate.google.co.in/?sl=auto&tl=en&op=translate" target="_blank">
