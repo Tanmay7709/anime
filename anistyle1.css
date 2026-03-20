@@ -224,14 +224,20 @@ div {
     width: 25%;
     background-color: #709775ff;
     border-radius: 0% 15% 0% 7%;
-    transition: background-color 1.0s ease-out;
+    /* transition: background-color 1.0s ease-out; */
 }
 .trio h2 {
     background: none;
-    margin: 10px 0px 0px 5px;
+    margin: 10px 0px 10px 5px;
     color: #590d22;
     -webkit-text-stroke: 1px #c1121f;
     font-size: 30px;
+}
+.trio p {
+    background: none;
+    margin: 7px;
+    font-size: 1.25rem;
+    font-family: cursive;
 }
 
 no {
