@@ -4,6 +4,9 @@
     color: antiquewhite;
     background-color: #111212;
 }
+body {
+    margin: 2rem 2rem;
+}
 a {
     text-decoration: none;
 }
@@ -18,8 +21,8 @@ div {
  * */
 
 .welcome {
-    margin-top: 10px;
-    height: 15vh;
+    margin-top: 0.625rem;
+    height: 10rem;
     width: 80%;
     position: relative;
     top: 0;
@@ -32,7 +35,7 @@ div {
 }
 .welcome h1{
     border: none;
-    font-size: 5em;
+    font-size: 5rem;
     display: inline-block;
 }
 
@@ -250,14 +253,25 @@ div {
 .about-cool {
     height: 100%;
     width: 47%;
-    background-color: #415d43ff;
+    background: none;
     border-radius: 0%;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 .about-cool h2 {
     background: none;
+    font-size: 3rem;
+    margin: 0.5rem 2rem 0.5rem 2rem;
+    text-align: right;
+    text-decoration: underline;
 }
+.about-cool p {
+    background: none;
+    font-size: 1.5rem;
+    margin: 0.20rem 1.25rem 0.20rem 1.25rem;
+    text-align: right;
+}
+
 no {
     background-color: #a1cca5ff;
     background-color: #8fb996ff;
