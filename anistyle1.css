@@ -91,6 +91,7 @@ div {
     margin: 12%;
     height: 2rem;
     width: 10rem;
+    cursor: pointer;
 }
 .mid-three3 {
     background-color: rgb(59, 59, 59);
@@ -204,12 +205,6 @@ div {
     justify-content: space-evenly;
     background-color: #111d13ff;
 }
-.photo {
-    height: 100%;
-    width: 47%;
-    background-color: #415d43ff;
-    border-radius: 0%;
-}
 .jp {
     height: 100%;
     width: 47%;
@@ -251,6 +246,18 @@ div {
     text-decoration: underline;
 }
 
+
+.about-cool {
+    height: 100%;
+    width: 47%;
+    background-color: #415d43ff;
+    border-radius: 0%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.about-cool h2 {
+    background: none;
+}
 no {
     background-color: #a1cca5ff;
     background-color: #8fb996ff;
