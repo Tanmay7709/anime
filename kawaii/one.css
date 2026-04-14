@@ -21,14 +21,16 @@
 }
 .unlisted-letters {
     list-style-type: none;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
     height: 100%;
     width: 100%;
     justify-content: space-evenly;
+    padding-top: 1.5rem;
 }
 .listed-letter {
-    height: 100px;
-    width: 150px;
+    height: 10rem;
+    width: 8rem;
     margin-bottom: 75px;
     background-color: antiquewhite;
 }
