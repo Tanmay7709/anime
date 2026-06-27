@@ -82,10 +82,28 @@
 }
 
 .divider {
-    height: 0.25rem;
+    height: 4rem;
     width: 100%;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     position: relative;
+    border: 2px white solid;
+    margin: 0.5rem 0 0.5rem;
+}
+.divLine {
+    height: 0.5rem;
+    width: 30%;
     background-color: white;
-    margin: 2rem 0 2rem 0;
+}
+.divText {
+    height: 3rem;
+    width: 35%;    
+    border: 2px white solid;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
 }
