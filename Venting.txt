@@ -33,3 +33,5 @@ lol i added nothing but removed a few things (ill make them better in future)
 
 21st september 12:33pm added a .gitignore file so that this file will be ignored and only be kept in my local storage and not getting pushed into the PUBLIC repo 
 just for privacy concerns lol
+
+just checking if its hidden or not
