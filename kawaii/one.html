@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="one.css">
+    <script src="one.js"></script>
     <title>one</title>
 </head>
 <body>
@@ -120,24 +121,24 @@
         </div>
         <div class="sub-2">
             <div class="letter-box-2">
-                <div class="letter"><h1>きゃ</h1> <h4>kya</h4></div>
-                <div class="letter"><h1>きゅ</h1> <h4>kyu</h4></div>
-                <div class="letter"><h1>きょ</h1> <h4>kyo</h4></div>
-                <div class="letter"><h1>しゃ</h1> <h4>sha</h4></div>
-                <div class="letter"><h1>しゅ</h1> <h4>shu</h4></div>
-                <div class="letter"><h1>しょ</h1> <h4>sho</h4></div>
-                <div class="letter"><h1>ちゃ</h1> <h4>cha</h4></div>
-                <div class="letter"><h1>ちゅ</h1> <h4>chu</h4></div>
-                <div class="letter"><h1>ちょ</h1> <h4>cho</h4></div>
-                <div class="letter"><h1>にゃ</h1> <h4>nya</h4></div>
-                <div class="letter"><h1>にゅ</h1> <h4>nyu</h4></div>
-                <div class="letter"><h1>にょ</h1> <h4>nyo</h4></div>
-                <div class="letter"><h1>ひゃ</h1> <h4>hya</h4></div>
-                <div class="letter"><h1>ひゅ</h1> <h4>hyu</h4></div>
-                <div class="letter"><h1>ひょ</h1> <h4>hyo</h4></div>
-                <div class="letter"><h1>みゃ</h1> <h4>mya</h4></div>
-                <div class="letter"><h1>みゅ</h1> <h4>myu</h4></div>
-                <div class="letter"><h1>みょ</h1> <h4>myo</h4></div>
+                <div class="letter-diag"> <h1>きゅ</h1> </div>
+                <div class="letter-diag"> <h1>きゃ</h1> </div>
+                <div class="letter-diag"> <h1>きょ</h1> </div>
+                <div class="letter-diag"> <h1>しゃ</h1> </div>
+                <div class="letter-diag"> <h1>しゅ</h1> </div>
+                <div class="letter-diag"> <h1>しょ</h1> </div>
+                <div class="letter-diag"> <h1>ちゃ</h1> </div>
+                <div class="letter-diag"> <h1>ちゅ</h1> </div>
+                <div class="letter-diag"> <h1>ちょ</h1> </div>
+                <div class="letter-diag"> <h1>にゃ</h1> </div>
+                <div class="letter-diag"> <h1>にゅ</h1> </div>
+                <div class="letter-diag"> <h1>にょ</h1> </div>
+                <div class="letter-diag"> <h1>ひゃ</h1> </div>
+                <div class="letter-diag"> <h1>ひゅ</h1> </div>
+                <div class="letter-diag"> <h1>ひょ</h1> </div>
+                <div class="letter-diag"> <h1>みゃ</h1> </div>
+                <div class="letter-diag"> <h1>みゅ</h1> </div>
+                <div class="letter-diag"> <h1>みょ</h1> </div>
             </div>
             <div class="letter-box-2">
                 <div class="letter"><h1>りゃ</h1> <h4>rya</h4></div>
@@ -160,7 +161,54 @@
                 <div class="letter"><h1>ぢょ</h1> <h4>dyo</h4></div>
             </div>
         </div>
+        <div class="new-guy">
+            <div id="grid-container"></div>
+        </div>
+        
+
     </div>
 
 </body>
 </html>
+<!-- 
+<div class="letter-box-2">
+    <div class="letter-diag"><h1>きゅ</h1> <h4>kyu</h4></div>
+    <div class="letter-diag"><h1>きゃ</h1> <h4>kya</h4></div>
+    <div class="letter-diag"><h1>きょ</h1> <h4>kyo</h4></div>
+    <div class="letter-diag"><h1>しゃ</h1> <h4>sha</h4></div>
+    <div class="letter-diag"><h1>しゅ</h1> <h4>shu</h4></div>
+    <div class="letter-diag"><h1>しょ</h1> <h4>sho</h4></div>
+    <div class="letter-diag"><h1>ちゃ</h1> <h4>cha</h4></div>
+    <div class="letter-diag"><h1>ちゅ</h1> <h4>chu</h4></div>
+    <div class="letter-diag"><h1>ちょ</h1> <h4>cho</h4></div>
+    <div class="letter-diag"><h1>にゃ</h1> <h4>nya</h4></div>
+    <div class="letter-diag"><h1>にゅ</h1> <h4>nyu</h4></div>
+    <div class="letter-diag"><h1>にょ</h1> <h4>nyo</h4></div>
+    <div class="letter-diag"><h1>ひゃ</h1> <h4>hya</h4></div>
+    <div class="letter-diag"><h1>ひゅ</h1> <h4>hyu</h4></div>
+    <div class="letter-diag"><h1>ひょ</h1> <h4>hyo</h4></div>
+    <div class="letter-diag"><h1>みゃ</h1> <h4>mya</h4></div>
+    <div class="letter-diag"><h1>みゅ</h1> <h4>myu</h4></div>
+    <div class="letter-diag"><h1>みょ</h1> <h4>myo</h4></div>
+</div>
+<div class="letter-box-2">
+    <div class="letter"><h1>りゃ</h1> <h4>rya</h4></div>
+    <div class="letter"><h1>りゅ</h1> <h4>ryu</h4></div>
+    <div class="letter"><h1>りょ</h1> <h4>ryo</h4></div>
+    <div class="letter"><h1>ぎゃ</h1> <h4>gya</h4></div>
+    <div class="letter"><h1>ぎゅ</h1> <h4>gyu</h4></div>
+    <div class="letter"><h1>ぎょ</h1> <h4>gyo</h4></div>
+    <div class="letter"><h1>じゃ</h1> <h4>ja</h4></div>
+    <div class="letter"><h1>じゅ</h1> <h4>ju</h4></div>
+    <div class="letter"><h1>じょ</h1> <h4>jo</h4></div>
+    <div class="letter"><h1>びゃ</h1> <h4>bya</h4></div>
+    <div class="letter"><h1>びゅ</h1> <h4>byu</h4></div>
+    <div class="letter"><h1>びょ</h1> <h4>byo</h4></div>
+    <div class="letter"><h1>ぴゃ</h1> <h4>pya</h4></div>
+    <div class="letter"><h1>ぴゅ</h1> <h4>pyu</h4></div>
+    <div class="letter"><h1>ぴょ</h1> <h4>pyo</h4></div>
+    <div class="letter"><h1>ぢゃ</h1> <h4>dya</h4></div>
+    <div class="letter"><h1>ぢゅ</h1> <h4>dyu</h4></div>
+    <div class="letter"><h1>ぢょ</h1> <h4>dyo</h4></div>
+</div>
+-->
