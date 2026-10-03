@@ -8,7 +8,7 @@
     background-color: rgb(189, 3, 3);
 }
 .main {
-    height: 800vh;
+    height: 500vh;
     width: 100%;
     display: flex;
     background-color: rgb(73, 36, 62);
@@ -57,7 +57,6 @@
     padding: 1rem;
     justify-items: center;
     align-items: center;
-
 }
 .letter-box-1 {
     height: 100%;
@@ -87,11 +86,6 @@
     justify-items: center;
     align-items: center;
 }
-.new-guy {
-    height: 100vh;
-    width: 100%;
-    background-color: hotpink;
-}
 
 .letter {
     height: 90%;
@@ -105,13 +99,14 @@
     align-content: center;
     /* justify-content: center; */
     text-align: center;
+    border-radius: 1rem;
 }
 .letter h1 {
     font-size: 5.5rem;
     font-family: sans-serif;
 }
 
-.letter-diag {
+/* .letter-diag {
     height: 90%;
     width: 80%;
     color: rgb(219, 175, 160);
@@ -121,14 +116,13 @@
     display: flex;
     flex-direction: row;
     align-content: center;
-    /* justify-content: center; */
     text-align: center;
 }
 .letter-diag h1 {
     font-size: 5.5rem;
     font-family: sans-serif;
     display: block;
-}
+} */
 
 .divider {
     height: 4rem;
